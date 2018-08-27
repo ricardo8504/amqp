@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: usage_message
+    receiver:
+      server:
+        port: 8081
+  rabbitmq:
+    host: orangutan.rmq.cloudamqp.com
+    virtual-host: xrssyhqg
+    username: xrssyhqg
+    password: KmeJtInKmy08sxaUty0VYUqMA4Da9Ih0
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 100000
